@@ -1,11 +1,8 @@
 ﻿
 
-[string[]]$gautham = 'powershell','learning','docker'
+New-Item -Path "D:\temp\Test Folder" -ItemType Directory
+New-Item -Path "D:\temp\Test Folder\gauti.txt" -ItemType File
 
-foreach($repo in $gautham)
-{
-Write-Host $repo
-}
 
 
 
